@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(164deg, rgba(0,255,0,1) 9%, rgba(0,0,255,0.8239670868347339) 95%);
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  line-height: 10pt;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: wait;
+  height: 120vh;
+}
+
+h1 {
+  width: 45ch;
+}
+
+.box {
+  margin-top: 60%;
+  width: 85%;
+  margin: 0 auto;
+  font-family: 'Inconsolata', monospace;
+  font-weight: lighter;
+  text-align: left;
+  color: black;
+}
+
+
+p {
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 10pt;
+  line-height: 10pt;
+  margin-bottom: 10%;
+}
+
+
+.icon {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+}
+
+.iconindex img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  Text-align: center;
+  padding-bottom: 2%;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: 45em;
+  margin-bottom: 150%;
+  margin-right: 1%;
+  padding-bottom: 20px;
+}
+
+.none {
+  width: 60ch;
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-size: 30pt;
+  line-height: 25pt;
+  margin: auto;
+  padding: auto;
+}
+
+ul.none {
+	list-style-type: none;
+}
+
+ul {
+  list-style-image: url('img/chevron-right1.png');
+}
+
+.division {
+  display: grid;
+  grid-template-columns: 10% 40% 10% 40%;
+  align-items: center;
+}
+
+.list-text {
+  font-size: 25pt;
+  line-height: 30pt;
+  width: 60ch;
+}
+
+.list-title {
+  font-size: 30pt;
+  line-height: 30pt;
+}
